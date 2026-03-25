@@ -179,3 +179,51 @@ footer {
         grid-template-columns: 100%;
     }
 }
+
+/* CONTACT FORM STYLING*/
+form {
+    margin-top: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+/* Input fields and textarea */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+    background-color: #2b2b2b;
+    color: white;
+
+    border: 1px solid #555;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+/* Focus effect */
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border: 1px solid #a855f7;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    background-color: #7b2cbf;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Hover effect for button */
+form input[type="submit"]:hover {
+    background-color: #9d4edd;
+}
