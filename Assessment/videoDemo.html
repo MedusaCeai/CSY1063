@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Demo | My Portfolio</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +16,10 @@
     </header>
 
     <!-- Navigation -->
-    <nav>
+    <nav id="menu">
+        <a href="#menu" class="showNav">☰ Menu</a>
+        <a href="#" class="hideNav">✕ Close</a>
+
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="project.html">Projects</a></li>
@@ -29,7 +31,6 @@
 
     <!-- Main content -->
     <main>
-
         <!-- Video section -->
         <section>
             <h2>Video Demonstration</h2>
@@ -39,8 +40,8 @@
             </p>
 
             <!-- Placeholder video -->
-            <video controls width="100%">
-                <source src="video.mp4" type="video/mp4">  <!-- add video here -->
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
@@ -52,7 +53,6 @@
                 <a href="#">Click here to view the video</a>
             </p>
         </section>
-
     </main>
 
     <!-- Sidebar -->
